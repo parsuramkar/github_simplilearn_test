@@ -2,6 +2,6 @@
 a=0
 while [ $a -le 10 ]
 do
-echo $a
+echo "The number is $a"
 a=`expr $a + 1`
 done
