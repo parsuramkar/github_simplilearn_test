@@ -1,0 +1,181 @@
+    1  git --version
+    2  rpm -qa|grep -i git
+    3  yum list
+    4  pwd
+    5  ll
+    6  clear
+    7  git --version
+    8  cat /etc/*-release
+    9  cat /etc/hosts
+   10  cat /etc/resolv.conf 
+   11  ls -l
+   12  history
+   13  ip r l
+   14  cat /etc/*-release
+   15  git status
+   16  clear
+   17  git --version
+   18  sudo apt-get remove git
+   19  git --version
+   20  sudo apt-get install git
+   21  git --version
+   22  pwd
+   23  ll
+   24  ls
+   25  mkdir parsuram_git
+   26  cd parsuram_git/
+   27  git init
+   28  ls -lrta
+   29  git config --global user.name "Parsuram Kar"
+   30  git config --global user.email "parsuramkar2014@gmail.com"
+   31  ls -lrta
+   32  cat > a.txt
+   33  cat a.txt 
+   34  git status
+   35  git add .
+   36  git status
+   37  git commit -m "Initial Commit"
+   38  git log
+   39  ll
+   40  vim a.txt
+   41  cat ram.css
+   42  cat > ram.css
+   43  git status
+   44  git log
+   45  git commit -m "one new css file has been added"
+   46  git status
+   47  git add .
+   48  git commit -m "one new css file has been added"
+   49  git status
+   50  git remote add origin https://gitlab.com/parsuramkar/simplilearn_test.git
+   51  git push -u origin master
+   52  ll
+   53  vim simpli.html
+   54  git add .
+   55  git commit -m "added a new file named simpli.html"
+   56  git status
+   57  git remote -v
+   58  git remote add origin https://gitlab.com/parsuramkar/simplilearn_test.git
+   59  ll
+   60  rm -rf ram.css
+   61  git add .
+   62  git status
+   63  git commit -m " deleted a file named ram.css"
+   64  git remote add origin master https://gitlab.com/parsuramkar/simplilearn_test.git
+   65  git remote add origin https://gitlab.com/parsuramkar/simplilearn_test.git
+   66  git push -u origin master
+   67  git status
+   68  ll
+   69  history
+   70  history > history_31032019.txt
+   71  vim history_31032019.txt 
+   72  git add .
+   73  git commit -m "history command"
+   74  git remote add origin https://gitlab.com/parsuramkar/simplilearn_test.git
+   75  git push -u origin master
+   76  git remote -v
+   77  git remote
+   78  ip r l
+   79  ll
+   80  cd parsuram_git/
+   81  ll
+   82  cd ..
+   83  ll
+   84  mkdir parsuram_github
+   85  cd parsuram_github/
+   86  git config --global user.name="Parsuram Kar"
+   87  git config --global user.name="ParsuramKar"
+   88  git config --global user.name="parsuramkar"
+   89  git init
+   90  ls -lrta
+   91  git config --global user.name "parsuramkar"
+   92  git rm -rf .git/
+   93  git rm -r .git/
+   94  ls -lrta
+   95  rm -rf .git/
+   96  git config --global user.name "parsuramkar"
+   97  git init
+   98  ls -lrta
+   99  git init
+  100  git config --global user.email "parsuramkar2014@gmail.com"
+  101  ll
+  102  ls -l
+  103  touch parsu.sh parsu.css parsu.js
+  104  vim parsu.sh
+  105  chmod a+x parsu.sh 
+  106  ./parsu.sh 
+  107  vim parsu.sh 
+  108  ./parsu.sh 
+  109  vim parsu.sh 
+  110  ./parsu.sh 
+  111  vim parsu.sh 
+  112  ./parsu.sh 
+  113  vim parsu.sh 
+  114  ./parsu.sh 
+  115  vim parsu.css 
+  116  git add parsu.sh 
+  117  git commit -m "Initial parsu.sh script file commited"
+  118  git remote add origin master
+  119  git push origin master
+  120  git remote -v
+  121  git remote add origin https://github.com/parsuramkar/github_simplilearn_test.git
+  122  git remote --delete origin master
+  123  git remote  origin -d master
+  124  git remote
+  125  git remote add origin https://github.com/parsuramkar/github_simplilearn_test.git
+  126  ll
+  127  rm -rf .git/
+  128  git init
+  129  https://github.com/parsuramkar/github_simplilearn_test.git
+  130  git remote -v
+  131  git config --global user.name "parsuramkar"
+  132  git config --global user.email "parsuramkar2014@gmail.com"
+  133  git add .
+  134  git commit -m "Initial commit"
+  135  git push -u origin master
+  136  git status
+  137  remote -v
+  138  git remote -v
+  139  git init
+  140  git add .
+  141  git commit -m "first commit"
+  142  git remote add origin https://github.com/parsuramkar/github_simplilearn_test.git
+  143  git remote -v
+  144  git push -u origin master
+  145  vim parsu.sh 
+  146  ./parsu.sh 
+  147  vim parsu.js 
+  148  git add parsu.sh 
+  149  git commit -m "parsu.sh has been added"
+  150  git              push origin master
+  151  git branch
+  152  git branch Parsu
+  153  git push branch Parsu
+  154  git push originnnnnnnnnnnnnnnnnnnnnnnnnnn Parsu
+  155  git push origin Parsu
+  156  git branch
+  157  git remote -r
+  158  git branch -r
+  159  git branch hari
+  160  git branch
+  161  git branch -r
+  162  git branch -a
+  163  git branch sahil
+  164  git add hari
+  165  ll
+  166  git checkout hari 
+  167  git checkout
+  168  git branch
+  169  git push origin hari
+  170  git branch -a
+  171  git push remotes --delete hari
+  172  git push origin --delete hari
+  173  git branch -d sahiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiil
+  174  git branch -d sahil
+  175  git branch -a
+  176  git checkout master
+  177  git log
+  178  git diff parsu.js parsu.sh
+  179  git merge hari master
+  180  git push origin master
+  181  history > history_02042019.txt
